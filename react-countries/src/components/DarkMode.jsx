@@ -10,7 +10,7 @@ const DarkMode = () => {
       time: '0.5s', // transición
       mixColor: '#fff', // color de mezcla para el modo oscuro
       backgroundColor: '#fff', // color de fondo
-      buttonColorDark: '#100f2c', // color del botón en modo oscuro
+      buttonColorDark: 'white', // color del botón en modo oscuro
       buttonColorLight: '#fff', // color del botón en modo claro
       saveInCookies: false, // guardar el estado en cookies
       label: '🌓', // etiqueta del botón

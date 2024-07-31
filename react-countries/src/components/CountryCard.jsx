@@ -1,4 +1,3 @@
-// src/components/CountryCard.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -31,7 +30,7 @@ const CountryCard = ({ country }) => {
         <p className="text-gray-600"><strong>Capital:</strong> {capital ? capital[0] : 'N/A'}</p>
         <button
           onClick={handleMoreClick}
-          className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+          className="mt-4 bg-green-400 text-white py-2 px-4 rounded hover:bg-green-400 transition duration-300"
         >
           More
         </button>
